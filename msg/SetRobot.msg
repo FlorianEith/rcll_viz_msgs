@@ -1,3 +1,5 @@
+int8 index
+
 # robot name
 string robot_name
 
@@ -6,6 +8,3 @@ int8 team
 
 # robot id
 int8 robot_id
----
-# index the robot was registered with
-int8 index

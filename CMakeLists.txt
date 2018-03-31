@@ -59,15 +59,15 @@ add_message_files(
   MachineStatus.msg
   MachinesStatus.msg
   MachineInit.msg
+  SetMachines.msg
+  SetGameField.msg
+  SetRobot.msg
 )
 
 ## Generate services in the 'srv' folder
-add_service_files(
-  FILES
-  AddMachines.srv
-  SetGameField.srv
-  AddRobot.srv
-)
+#add_service_files(
+#  FILES
+#)
 
 ## Generate actions in the 'action' folder
 # add_action_files(

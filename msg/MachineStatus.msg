@@ -1,8 +1,4 @@
-# machine name short
-string machine_name_short
-
-# team 0=CYAN 1=MAGENTA 2=NO_TEAM
-int8 team
+int8 index
 
 # machine production status
 # (possible are: Idle, Broken, Processing, Processed, Prepared, Down, Finished, Waiting, Offline)

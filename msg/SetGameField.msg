@@ -7,4 +7,3 @@ float32 field_h
 int32 zones_x
 int32 zones_y
 int32[] insertion_zones
----

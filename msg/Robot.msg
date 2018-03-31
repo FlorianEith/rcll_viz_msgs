@@ -1,4 +1,3 @@
-# index the robot was registered with
 int8 index
 
 # active

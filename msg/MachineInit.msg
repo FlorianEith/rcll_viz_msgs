@@ -1,3 +1,5 @@
+int8 index
+
 # machine name short
 string name_short
 
