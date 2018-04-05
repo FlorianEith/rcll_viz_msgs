@@ -8,3 +8,5 @@ int8 team
 
 # robot id
 int8 robot_id
+
+bool active
