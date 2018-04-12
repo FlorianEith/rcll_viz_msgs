@@ -1,7 +1,7 @@
 int8 index
 
 # machine production status
-# (possible are: Idle, Broken, Processing, Processed, Prepared, Down, Finished, Waiting, Offline)
+# (possible are: IDLE, BROKEN, PROCESSING, PROCESSED, PREPARED, DOWN, READY-AT-OUTPUT, WAIT-IDLE, OFFLINE)
 string machine_status_production
 
 # machine exploration status 0=unreported, 1=correct, 2=wrong

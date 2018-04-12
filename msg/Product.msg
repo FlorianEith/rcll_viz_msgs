@@ -1,5 +1,6 @@
 # order id
-int32 id
+int32 product_id
+int32 quantity_id
 
 # complexity 0=C0 1=C1 2=C2 3=C3
 int32 complexity
