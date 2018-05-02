@@ -20,7 +20,16 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-int8 index
+string key
+
+# robot name
+string robot_name
+
+# team 0=CYAN 1=MAGENTA 2=NO_TEAM
+int8 team
+
+# robot id
+int8 robot_id
 
 # active
 bool active
@@ -38,3 +47,5 @@ int8 maintenance_count
 float32 x
 float32 y
 float32 yaw
+
+std_msgs/Time stamp

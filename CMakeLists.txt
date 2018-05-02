@@ -56,12 +56,9 @@ add_message_files(
   Products.msg
   Robot.msg
   Robots.msg
-  MachineStatus.msg
-  MachinesStatus.msg
-  MachineInit.msg
-  SetMachines.msg
+  Machine.msg
+  Machines.msg
   SetGameField.msg
-  SetRobot.msg
 )
 
 ## Generate services in the 'srv' folder
