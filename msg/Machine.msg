@@ -29,7 +29,7 @@ string name_short
 string name_long
 
 # team 0=CYAN 1=MAGENTA 2=NO_TEAM
-int8 team
+int32 team
 
 # machine position and orientation
 float32 x
@@ -41,5 +41,5 @@ float32 yaw
 string machine_status_production
 
 # machine exploration status 0=unreported, 1=correct, 2=wrong
-int8 machine_status_exploration1
-int8 machine_status_exploration2
+int32 machine_status_exploration1
+int32 machine_status_exploration2

@@ -46,6 +46,6 @@ float32 progress_magenta
 int32 end_delivery_time
 
 # points
-int8 points_cyan
-int8 points_magenta
-int8 points_max
+int32 points_cyan
+int32 points_magenta
+int32 points_max
